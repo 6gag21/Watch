@@ -43,7 +43,7 @@ public class WatchView extends LinearLayout {
     }
 
     private void init() {
-        View view = LayoutInflater.from(getContext()).inflate(R.layout.view_watch, this, true);
+        LayoutInflater.from(getContext()).inflate(R.layout.view_watch, this, true);
         dv1 = findViewById(R.id.dv_1);
         dv2 = findViewById(R.id.dv_2);
         dv3 = findViewById(R.id.dv_3);

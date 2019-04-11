@@ -7,10 +7,6 @@ import com.example.aca.watch.widget.WatchView;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
